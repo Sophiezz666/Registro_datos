@@ -25,7 +25,7 @@ class Persona:
     @edad.setter
     def edad(self,edad:int):
         if isinstance(edad, int) and edad > 0:
-            self._documento = edad
+            self._edad = edad
         else:
             raise ValueError("La edad debe ser un numero entero positivo.")
 
